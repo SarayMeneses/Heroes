@@ -20,6 +20,9 @@ a {
     height: 100vh;
     z-index: -1;
     animation: introLoad 2s forwards;
+    border: width 20px;
+            border-color: #0f7355;
+            border-style: double;
     //overflow: hidden;
 }
 
@@ -109,6 +112,9 @@ section.hero {
         width: 100%;
         object-fit: cover;
         height: 11em;
+        border: width 20px;
+            border-color: #0f7355;
+            border-style: double;
     }
 
     .title {
@@ -181,6 +187,7 @@ section.hero {
 
         span {
             color: #deaf4c;
+            
         }
     }
 
@@ -212,6 +219,9 @@ section.hero {
 
         img {
             width: 25em;
+            border: width 20px;
+            border-color: #0f7355;
+            border-style: double;
         }
 
         .content {
@@ -226,6 +236,9 @@ section.hero {
 
         img {
             grid-area: left;
+            border: width 20px;
+            border-color: #0f7355;
+            border-style: double;
         }
 
         .content {
