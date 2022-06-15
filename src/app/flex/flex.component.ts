@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
+import { defineCustomElements } from '@teamhive/lottie-player/loader';
+defineCustomElements(window);
 @Component({
   selector: 'app-flex',
   templateUrl: './flex.component.html',

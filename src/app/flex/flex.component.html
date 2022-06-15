@@ -43,9 +43,9 @@
   </header>
 
   <section class="hero">
-    <h1>A watch for any time</h1>
+    <h1  style="font-family: Poppins;">A watch for any time</h1>
 
-    <p class="subhead">WITH THE BEST SERVICE OPTIONS</p>
+    <p class="subhead"  style="font-family: Poppins;">WITH THE BEST SERVICE OPTIONS</p>
 
     <svg class="down-arrow" viewBox="0 0 16 132" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M7.29289 131.707C7.68341 132.098 8.31658 132.098 8.7071 131.707L15.0711
@@ -60,8 +60,8 @@
   <section class="more-info">
     <div class="feature left">
       <div class="content" >
-            <p class="title">Jewelry Repair</p>
-            <p class="desc">Design, repair and maintenance of silver and gold jewelry,
+            <p class="title"  style="font-family: Poppins;">Jewelry Repair</p>
+            <p class="desc"  style="font-family: Poppins;">Design, repair and maintenance of silver and gold jewelry,
               custom exclusive and personalized designs, repairs such as welding or setting 
               of natural stones.</p>
       </div>
@@ -69,8 +69,8 @@
     </div>
     <div class="feature ">
       <div class="content">
-            <p class="title">Watch Repair</p>
-            <p class="desc">A new concept in the repair and maintenance of all types
+            <p class="title"  style="font-family: Poppins;">Watch Repair</p>
+            <p class="desc"  style="font-family: Poppins;">A new concept in the repair and maintenance of all types
                of watches from the most recognized brands. We have a wide assortment of 
                spare parts and accessories.</p>
       </div>
@@ -78,8 +78,8 @@
     </div>
     <div class="feature left">
       <div class="content">
-            <p class="title">Contact</p>
-            <p class="desc">Address: 255 E Flagler St #84, Miami, FL 33131,United States                                         
+            <p class="title"  style="font-family: Poppins;">Contact</p>
+            <p class="desc"  style="font-family: Poppins;">Address: 255 E Flagler St #84, Miami, FL 33131,United States                                         
                Phone: +1 754-366-0071</p>
       </div>
       <img src="assets/images/3.jpeg" alt="Another shoe">
@@ -89,3 +89,22 @@
   <br>
 
 </div>
+
+<lottie-player
+    autoplay
+    controls
+    loop
+    mode="normal"
+    src="https://assets3.teamhive.com/packages/lf20_UJNc2t.json"
+    style="width: 320px"
+>
+</lottie-player>
+
+<lottie-player class="lottie-player" *ngIf="true" style="
+    position: absolute;
+    top: 52%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;    
+    width: 265px;" slot="end" autoplay [src]="'/assets/images/machine.json'">
+</lottie-player>
